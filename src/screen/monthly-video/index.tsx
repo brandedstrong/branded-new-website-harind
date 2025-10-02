@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { IMAGES } from "@/constants/images";
 import Header from "@/components/Header";
 import LogoSlider from "@/components/LogoSlider";
@@ -8,7 +7,6 @@ import BenefitButtonsMarquee from "@/components/BenefitButtonsMarquee";
 import FAQAccordion from "@/components/FAQAccordion";
 import { IconOne, SlackIcon } from "@/lib/IconSvgIcons";
 import TextMarquee from "@/components/TextMarquee";
-import FAQSection from "@/components/FAQSection";
 import StartTodaySection from "@/components/StartTodaySection";
 import VideoLaptopReadySection from "@/components/VideoLaptopReadySection";
 import PriceSection from "@/components/PriceSection";
