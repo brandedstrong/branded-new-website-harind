@@ -24,6 +24,7 @@ function App() {
       <Router>
         <AppRoutes />
       </Router>
+      {/* some comments */}
     </Loader>
   );
 }
