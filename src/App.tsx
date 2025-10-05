@@ -25,6 +25,8 @@ function App() {
         <AppRoutes />
       </Router>
       {/* some comments */}
+      {/* some comments */}
+      {/* some comments */}
     </Loader>
   );
 }
