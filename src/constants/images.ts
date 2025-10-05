@@ -1,6 +1,5 @@
 import Logo from "@/assets/images/logo.svg";
 import LogoIcon from "@/assets/images/logoicon.svg";
-import Stone_Img from "@/assets/images/stone.svg";
 import Stone_Img1 from "@/assets/images/stone1.png";
 import Laptop_Img from "@/assets/images/laptop.svg";
 import Star_Img from "@/assets/images/star.svg";
@@ -98,7 +97,6 @@ export const IMAGES = {
   Glans_Img,
   Power_Img,
   Logo,
-  Stone_Img,
   Laptop_Img,
   Star_Img,
   LogoIcon,

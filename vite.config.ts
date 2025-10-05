@@ -13,6 +13,7 @@ export default defineConfig({
       optipng: { optimizationLevel: 7 },
       mozjpeg: { quality: 75 },
       webp: { quality: 75 },
+      // Remove filter since we've already deleted the problematic large file
     }),
   ],
   resolve: {
