@@ -7,8 +7,19 @@ const VideoLaptopReadySection = () => {
   return (
     <React.Fragment>
       {/* Video Laptop Section */}
-      <img src={IMAGES.Videoalptop_Img} alt="video" className="w-full h-auto" />
-
+      {/* <img src={IMAGES.Videoalptop_Img} alt="video" className="w-full h-auto" /> */}
+      {/* <div className="flex justify-center my-8">
+        <video
+          src={IMAGES.Video_Laptop}
+          className="w-full h-auto"
+          autoPlay
+          loop
+          muted
+          playsInline
+          controls={false}
+          style={{ objectFit: "contain" }}
+        />
+      </div> */}
       {/* Ready To Section */}
       <div className="relative bg-black min-h-[400px] sm:min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

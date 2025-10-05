@@ -183,7 +183,7 @@ const HomePage = () => {
       {/* Marketing Banner Section */}
       <div className="relative bg-black  overflow-hidden">
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
-          <div className="max-w-[800px] gap-12 lg:gap-10 items-center">
+          <div className="max-w-[750px] gap-12 lg:gap-10 items-center">
             {/* Left Content */}
             <div className="space-y-8 lg:space-y-12 relative z-10">
               {/* Main Headline */}
@@ -207,7 +207,7 @@ const HomePage = () => {
 
               {/* Body Text */}
               <div className="flex flex-col md:flex-row gap-3   items-center sm:gap-8 max-w-[780px]">
-                <p className="text-sm sm:text-md md:text-2xl text-[#F9FFEB] font-medium uppercase leading-relaxed">
+                <p className="text-sm sm:text-md md:text-lg text-[#F9FFEB] font-medium uppercase leading-relaxed">
                   WE CREATE FAST CONVERTING PAGES & TARGETED CINEMATIC VIDEOS
                   FOR BUSINESSES LIKE YOURS.
                 </p>
@@ -224,7 +224,7 @@ const HomePage = () => {
             </div>
 
             {/* Right Content - Woman with Laptop */}
-            <div className="md:absolute right-0 top-0 opacity-100 md:opacity-30 xl:opacity-100">
+            <div className="md:absolute right-[-115px] top-[50px] opacity-100 md:opacity-30 xl:opacity-100">
               <img
                 src={IMAGES.Women_Img}
                 alt="hero"

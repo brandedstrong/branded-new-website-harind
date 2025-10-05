@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { IMAGES } from "@/constants/images";
 import FAQSection from "@/components/FAQSection";

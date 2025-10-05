@@ -451,7 +451,7 @@ const ContactUs = () => {
       </div>
 
       {/* Video Laptop Section */}
-      <img src={IMAGES.Videoalptop_Img} alt="video" className="w-full h-auto" />
+      {/* <img src={IMAGES.Videoalptop_Img} alt="video" className="w-full h-auto" /> */}
 
       {/* Ready To Section */}
       <div className="relative bg-black min-h-[400px] sm:min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center overflow-hidden">

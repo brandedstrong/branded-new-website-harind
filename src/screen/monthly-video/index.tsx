@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { IMAGES } from "@/constants/images";
 import Header from "@/components/Header";
 import LogoSlider from "@/components/LogoSlider";
@@ -8,7 +7,6 @@ import BenefitButtonsMarquee from "@/components/BenefitButtonsMarquee";
 import FAQAccordion from "@/components/FAQAccordion";
 import { IconOne, SlackIcon } from "@/lib/IconSvgIcons";
 import TextMarquee from "@/components/TextMarquee";
-import FAQSection from "@/components/FAQSection";
 import StartTodaySection from "@/components/StartTodaySection";
 import VideoLaptopReadySection from "@/components/VideoLaptopReadySection";
 import PriceSection from "@/components/PriceSection";
@@ -360,7 +358,6 @@ const MonthlyVideoProduction = () => {
           <div className="max-w-xl relative z-10">
             <h2 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl  font-bold text-white leading-tight uppercase mb-12">
               WHAT'S
-              <br />
               <span
                 className="ml-2 bg-gradient-to-r from-[#B0E63B] via-[#E0E23B] to-[#E0E23B] bg-clip-text text-transparent"
                 style={{
@@ -376,9 +373,9 @@ const MonthlyVideoProduction = () => {
             <FAQAccordion />
           </div>
           <img
-            src={IMAGES.Include_Img}
+            src={IMAGES.Include_Img1}
             alt="video"
-            className="max-w-[1000px] max-h-[1000px] object-center absolute right-0 bottom-0 opacity-15 xl:opacity-100"
+            className="max-w-[700px] max-h-[700px] object-center absolute right-[-130px] top-[90px] opacity-15 xl:opacity-100"
           />
         </div>
       </div>

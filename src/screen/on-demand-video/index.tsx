@@ -175,7 +175,7 @@ const OnDemadVideoProduction = () => {
                 <img
                   src={IMAGES.Video2_Img}
                   alt="video"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover rounded-[20px]"
                 />
               </div>
             </div>
@@ -294,10 +294,10 @@ const OnDemadVideoProduction = () => {
         style={{ backgroundImage: `url(${IMAGES.Video4_Img})` }}
       >
         <div className="absolute inset-0 bg-black/80 "></div>
-        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 ">
           {/* Header */}
-          <div className="mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight uppercase mb-1">
+          <div className="mb-8 sm:mb-12 lg:mb-16 max-w-md">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl  font-bold text-white leading-tight uppercase mb-1">
               VIDEO TYPES
               <span
                 className="ml-2 bg-gradient-to-r from-[#B0E63B] via-[#E0E23B] to-[#E0E23B] bg-clip-text text-transparent"
@@ -380,10 +380,15 @@ const OnDemadVideoProduction = () => {
 
         {/* WHAT'S INCLUDED? Section */}
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-          <div className="max-w-xl relative z-10">
+          <img
+            src={IMAGES.Include_Img}
+            alt="video"
+            className="max-w-[700px] max-h-[700px] object-center absolute left-[-170px] top-[90px] opacity-15 xl:opacity-100"
+          />
+
+          <div className="max-w-xl relative z-10 ml-auto">
             <h2 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl  font-bold text-white leading-tight uppercase mb-12">
               WHAT'S
-              <br />
               <span
                 className="ml-2 bg-gradient-to-r from-[#B0E63B] via-[#E0E23B] to-[#E0E23B] bg-clip-text text-transparent"
                 style={{
@@ -398,11 +403,6 @@ const OnDemadVideoProduction = () => {
             </h2>
             <FAQAccordion />
           </div>
-          <img
-            src={IMAGES.Include_Img}
-            alt="video"
-            className="max-w-[1000px] max-h-[1000px] object-center absolute right-0 bottom-0 opacity-15 xl:opacity-100"
-          />
         </div>
       </div>
 

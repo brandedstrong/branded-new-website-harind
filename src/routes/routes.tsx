@@ -3,30 +3,40 @@ import HomePage from "@/screen";
 import MonthlyVideoProduction from "@/screen/monthly-video";
 import OnDemadVideoProduction from "@/screen/on-demand-video";
 import ContactUs from "@/screen/contact";
+import Shopify from "@/screen/shopify";
+import WebDesign from "@/screen/web-design";
 
 export const restaurantRoutes = [
-    {
-        path: '/',
-        element: <Layout />,
-        children: [
-            {
-                index: true,
-                element: <HomePage />
-            },
-            {
-                path: 'monthly-video-production',
-                element: <MonthlyVideoProduction />
-            },
-            {
-                path: 'on-demand-video-production',
-                element: <OnDemadVideoProduction />
-            },
-            {
-                path: 'contact',
-                element: <ContactUs />
-            },
-        ]
-    }
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />,
+      },
+      {
+        path: "web-design",
+        element: <WebDesign />,
+      },
+      {
+        path: "monthly-video-production",
+        element: <MonthlyVideoProduction />,
+      },
+      {
+        path: "on-demand-video-production",
+        element: <OnDemadVideoProduction />,
+      },
+      {
+        path: "shopify",
+        element: <Shopify />,
+      },
+      {
+        path: "contact",
+        element: <ContactUs />,
+      },
+    ],
+  },
 ];
 
 export default restaurantRoutes;

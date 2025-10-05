@@ -1,4 +1,3 @@
-
 import Logo from "@/assets/images/logo.svg";
 import LogoIcon from "@/assets/images/logoicon.svg";
 import Stone_Img from "@/assets/images/stone.svg";
@@ -21,6 +20,7 @@ import Video2_Img from "@/assets/images/video2.jpg";
 import Video3_Img from "@/assets/images/video3.jpg";
 import Video4_Img from "@/assets/images/video4.jpg";
 import Include_Img from "@/assets/images/include.png";
+import Include_Img1 from "@/assets/images/include1.png";
 import Ads_IMG from "@/assets/images/ads.png";
 import Bestseller_IMG from "@/assets/images/bestseller.png";
 import Image1 from "@/assets/images/today/img1.jpg";
@@ -29,6 +29,13 @@ import Image3 from "@/assets/images/today/img3.jpg";
 import Image4 from "@/assets/images/today/img4.jpg";
 import OnDemand_Img from "@/assets/images/ondemand.jpg";
 import GrowAds_Img from "@/assets/images/growads.jpg";
+import Shopify_Img from "@/assets/images/shopify.png";
+import FloatingScreen_Img from "@/assets/images/floating-screen.png";
+import StartToday_Img from "@/assets/images/start-today.png";
+import Laptop_Rock_Img from "@/assets/images/laptop_rock.png";
+import Laptop_Mockup_Img from "@/assets/images/laptop_mockup.png";
+import Video_Laptop from "@/assets/video/laptopvideo.mp4";
+import Lady_with_laptop from "@/assets/images/ladylaptop.png";
 
 // Slider Icons
 import Icons1 from "@/assets/images/icons/ubuntu.svg";
@@ -41,54 +48,69 @@ import Icons7 from "@/assets/images/icons/mailchimp.svg";
 import Icons8 from "@/assets/images/icons/react.svg";
 import Instagram from "@/assets/images/ginstagram.svg";
 import Facebook from "@/assets/images/gfacebook.svg";
+import Path_SVG1 from "@/assets/images/path1.svg";
+import Path_SVG2 from "@/assets/images/path2.svg";
+import Path_SVG3 from "@/assets/images/path3.svg";
+import Path_SVG4 from "@/assets/images/path4.svg";
 
 import Phone_Gradient from "@/assets/images/phoneg.svg";
 import Email_Gradient from "@/assets/images/emailg.svg";
 import Location_Gradient from "@/assets/images/locationg.svg";
 
 export const IMAGES = {
-     Phone_Gradient,
-     Email_Gradient,
-     Location_Gradient,
-     Stone_Img1,
-     Instagram,
-     Facebook,
-     GrowAds_Img,
-     OnDemand_Img,
-     Image1,
-     Image2,
-     Image3,
-     Image4,
-     Bestseller_IMG,
-     Ads_IMG,
-     Include_Img,
-     Video4_Img,
-     Video3_Img,
-     Video2_Img,
-     Computer_Img,
-     Glass1_Img,
-     Monthly_Img,
-     FooterLogo_Img,
-     Footer_Img,
-     Linegradient_Img,
-     Videoalptop_Img,
-     Figma_Img,
-     Text_Img,
-     Glans_Img,
-     Power_Img,
-     Logo,
-     Stone_Img,
-     Laptop_Img,
-     Star_Img,
-     LogoIcon,
-     Icons1,
-     Icons2,
-     Icons3,
-     Icons4,
-     Icons5,
-     Icons6,
-     Icons7,
-     Icons8,
-     Women_Img
+  Path_SVG1,
+  Path_SVG2,
+  Path_SVG3,
+  Path_SVG4,
+  StartToday_Img,
+  Laptop_Rock_Img,
+  Laptop_Mockup_Img,
+  FloatingScreen_Img,
+  Include_Img1,
+  Video_Laptop,
+  Phone_Gradient,
+  Email_Gradient,
+  Location_Gradient,
+  Stone_Img1,
+  Instagram,
+  Facebook,
+  GrowAds_Img,
+  OnDemand_Img,
+  Image1,
+  Image2,
+  Image3,
+  Image4,
+  Bestseller_IMG,
+  Ads_IMG,
+  Include_Img,
+  Video4_Img,
+  Video3_Img,
+  Video2_Img,
+  Computer_Img,
+  Glass1_Img,
+  Monthly_Img,
+  FooterLogo_Img,
+  Footer_Img,
+  Linegradient_Img,
+  Videoalptop_Img,
+  Figma_Img,
+  Text_Img,
+  Glans_Img,
+  Power_Img,
+  Logo,
+  Stone_Img,
+  Laptop_Img,
+  Star_Img,
+  LogoIcon,
+  Icons1,
+  Icons2,
+  Icons3,
+  Icons4,
+  Icons5,
+  Icons6,
+  Icons7,
+  Icons8,
+  Women_Img,
+  Shopify_Img,
+  Lady_with_laptop,
 };
-

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="relative w-full   py-10 pt-20 sm:pt-40">
+    <footer className="relative w-full pt-20 sm:pt-40">
       {/* Content */}
       <div className="relative z-10 ">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -131,7 +131,7 @@ const Footer = () => {
           style={{ zIndex: 0 }}
         />
         {/* Overlay for content readability, optional: */}
-        <div className="relative z-10 flex flex-col flex-1">
+        <div className="relative z-10 flex flex-col flex-1 pb-10">
           {/* Copyright and Bible Verse */}
           <div className="text-center mt-auto">
             <p className="text-md md:text-2xl max-w-[490px] lg:max-w-[800px] mx-auto lg:text-base font-medium bg-gradient-to-r from-[#B0E63B] via-[#E0E23B] to-[#E0E23B] bg-clip-text text-transparent uppercase tracking-wide">
